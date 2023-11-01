@@ -529,7 +529,7 @@ for team in teams:
                     if A == "_":
                         A = ""
                 except:
-                    A = "none"
+                    A = ""
                 try:
                     Upper_B = columns[1].find_element(By.TAG_NAME, 'div').text
                     Lower_B = columns[1].find_element(By.TAG_NAME, 'span').text
@@ -537,7 +537,7 @@ for team in teams:
                     if B == "_":
                         B = ""
                 except:
-                    B = "none"
+                    B = ""
                 try:
                     Upper_C = columns[2].find_element(By.TAG_NAME, 'div').text
                     Lower_C = columns[2].find_element(By.TAG_NAME, 'span').text
@@ -545,7 +545,7 @@ for team in teams:
                     if C == "_":
                         C = ""
                 except:
-                    C = "none"
+                    C = ""
                 try:
                     Upper_D = columns[3].find_element(By.TAG_NAME, 'div').text
                     Lower_D = columns[3].find_element(By.TAG_NAME, 'span').text
@@ -561,7 +561,7 @@ for team in teams:
                     if E == "_":
                         E = ""
                 except:
-                    E = "none"
+                    E = ""
                 try:
                     Upper_F = columns[5].find_element(By.TAG_NAME, 'div').text
                     Lower_F = columns[5].find_element(By.TAG_NAME, 'span').text
@@ -569,7 +569,7 @@ for team in teams:
                     if F == "_":
                         F = ""
                 except:
-                    F = "none"
+                    F = ""
                 try:
                     Upper_G = columns[6].find_element(By.TAG_NAME, 'div').text
                     Lower_G = columns[6].find_element(By.TAG_NAME, 'span').text
@@ -577,7 +577,7 @@ for team in teams:
                     if G == "_":
                         G = ""
                 except:
-                    G = "none"
+                    G = ""
                 try:
                     Upper_H = columns[7].find_element(By.TAG_NAME, 'div').text
                     Lower_H = columns[7].find_element(By.TAG_NAME, 'span').text
@@ -585,7 +585,7 @@ for team in teams:
                     if H == "_":
                         H = ""
                 except:
-                    H = "none"
+                    H = ""
                 try:
                     Upper_I = columns[8].find_element(By.TAG_NAME, 'div').text
                     Lower_I = columns[8].find_element(By.TAG_NAME, 'span').text
@@ -593,7 +593,7 @@ for team in teams:
                     if I == "_":
                         I = ""
                 except:
-                    I = "none"
+                    I = ""
                 try:
                     Upper_J = columns[9].find_element(By.TAG_NAME, 'div').text
                     Lower_J = columns[9].find_element(By.TAG_NAME, 'span').text
@@ -601,7 +601,7 @@ for team in teams:
                     if J == "_":
                         J = ""
                 except:
-                    J = "none"
+                    J = ""
                 try:
                     Upper_K = columns[10].find_element(By.TAG_NAME, 'div').text
                     Lower_K = columns[10].find_element(By.TAG_NAME, 'span').text
@@ -609,7 +609,7 @@ for team in teams:
                     if K == "_":
                         K = ""
                 except:
-                    K = "none"
+                    K = ""
                 try:
                     Upper_L = columns[11].find_element(By.TAG_NAME, 'div').text
                     Lower_L = columns[11].find_element(By.TAG_NAME, 'span').text
@@ -617,7 +617,7 @@ for team in teams:
                     if L == "_":
                         L = ""
                 except:
-                    L = "none"
+                    L = ""
                 try:
                     Upper_M = columns[12].find_element(By.TAG_NAME, 'div').text
                     Lower_M = columns[12].find_element(By.TAG_NAME, 'span').text
@@ -625,7 +625,7 @@ for team in teams:
                     if M == "_":
                         M = ""
                 except:
-                    M = "none"
+                    M = ""
                 try:
                     Upper_N = columns[13].find_element(By.TAG_NAME, 'div').text
                     Lower_N = columns[13].find_element(By.TAG_NAME, 'span').text
@@ -633,7 +633,7 @@ for team in teams:
                     if N == "_":
                         N = ""
                 except:
-                    N = "none"
+                    N = ""
                 try:
                     Upper_O = columns[14].find_element(By.TAG_NAME, 'div').text
                     Lower_O = columns[14].find_element(By.TAG_NAME, 'span').text
@@ -641,7 +641,7 @@ for team in teams:
                     if O == "_":
                         O = ""
                 except:
-                    O = "none"
+                    O = ""
                 try:
                     Upper_P = columns[15].find_element(By.TAG_NAME, 'div').text
                     Lower_P = columns[15].find_element(By.TAG_NAME, 'span').text
@@ -649,7 +649,7 @@ for team in teams:
                     if P == "_":
                         P = ""
                 except:
-                    P = "none"
+                    P = ""
                 try:
                     Upper_Q = columns[16].find_element(By.TAG_NAME, 'div').text
                     Lower_Q = columns[16].find_element(By.TAG_NAME, 'span').text
@@ -657,7 +657,7 @@ for team in teams:
                     if Q == "_":
                         Q = ""
                 except:
-                    Q = "none"
+                    Q = ""
                 try:
                     Upper_R = columns[17].find_element(By.TAG_NAME, 'div').text
                     Lower_R = columns[17].find_element(By.TAG_NAME, 'span').text
@@ -665,7 +665,7 @@ for team in teams:
                     if R == "_":
                         R = ""
                 except:
-                    R = "none"
+                    R = ""
                 try:
                     Upper_S = columns[18].find_element(By.TAG_NAME, 'div').text
                     Lower_S = columns[18].find_element(By.TAG_NAME, 'span').text
@@ -673,7 +673,7 @@ for team in teams:
                     if S == "_":
                         S = ""
                 except:
-                    S = "none"
+                    S = ""
                 try:
                     Upper_T = columns[19].find_element(By.TAG_NAME, 'div').text
                     Lower_T = columns[19].find_element(By.TAG_NAME, 'span').text
@@ -681,7 +681,7 @@ for team in teams:
                     if T == "_":
                         T = ""
                 except:
-                    T = "none"
+                    T = ""
                 try:
                     Upper_U = columns[20].find_element(By.TAG_NAME, 'div').text
                     Lower_U = columns[20].find_element(By.TAG_NAME, 'span').text
@@ -689,7 +689,7 @@ for team in teams:
                     if U == "_":
                         U = ""
                 except:
-                    U = "none"
+                    U = ""
                 try:
                     Upper_V = columns[21].find_element(By.TAG_NAME, 'div').text
                     Lower_V = columns[21].find_element(By.TAG_NAME, 'span').text
@@ -697,7 +697,7 @@ for team in teams:
                     if V == "_":
                         V = ""
                 except:
-                    V = "none"
+                    V = ""
                 try:
                     Upper_W = columns[22].find_element(By.TAG_NAME, 'div').text
                     Lower_W = columns[22].find_element(By.TAG_NAME, 'span').text
@@ -705,7 +705,7 @@ for team in teams:
                     if W == "_":
                         W = ""
                 except:
-                    W = "none"
+                    W = ""
                 try:
                     Upper_X = columns[23].find_element(By.TAG_NAME, 'div').text
                     Lower_X = columns[23].find_element(By.TAG_NAME, 'span').text
@@ -713,7 +713,7 @@ for team in teams:
                     if X == "_":
                         X = ""
                 except:
-                    X = "none"
+                    X = ""
                 try:
                     Upper_Y = columns[24].find_element(By.TAG_NAME, 'div').text
                     Lower_Y = columns[24].find_element(By.TAG_NAME, 'span').text
@@ -721,7 +721,7 @@ for team in teams:
                     if Y == "_":
                         Y = ""
                 except:
-                    Y = "none"
+                    Y = ""
                 try:
                     Upper_Z = columns[25].find_element(By.TAG_NAME, 'div').text
                     Lower_Z = columns[25].find_element(By.TAG_NAME, 'span').text
@@ -729,7 +729,7 @@ for team in teams:
                     if Z == "_":
                         Z = ""
                 except:
-                    Z = "none"
+                    Z = ""
                 try:
                     Upper_A1 = columns[26].find_element(By.TAG_NAME, 'div').text
                     Lower_A1 = columns[26].find_element(By.TAG_NAME, 'span').text
@@ -737,7 +737,7 @@ for team in teams:
                     if A1 == "_":
                         A1 = ""
                 except:
-                    A1 = "none"
+                    A1 = ""
                 try:
                     Upper_B1 = columns[27].find_element(By.TAG_NAME, 'div').text
                     Lower_B1 = columns[27].find_element(By.TAG_NAME, 'span').text
@@ -745,7 +745,7 @@ for team in teams:
                     if B1 == "_":
                         B1 = ""
                 except:
-                    B1 = "none"
+                    B1 = ""
                 try:
                     Upper_C1 = columns[28].find_element(By.TAG_NAME, 'div').text
                     Lower_C1 = columns[28].find_element(By.TAG_NAME, 'span').text
@@ -753,7 +753,7 @@ for team in teams:
                     if C1 == "_":
                         C1 = ""
                 except:
-                    C1 = "none"
+                    C1 = ""
                 try:
                     Upper_D1 = columns[29].find_element(By.TAG_NAME, 'div').text
                     Lower_D1 = columns[29].find_element(By.TAG_NAME, 'span').text
@@ -761,7 +761,7 @@ for team in teams:
                     if D1 == "_":
                         D1 = ""
                 except:
-                    D1 = "none"
+                    D1 = ""
                 try:
                     Upper_E1 = columns[30].find_element(By.TAG_NAME, 'div').text
                     Lower_E1 = columns[30].find_element(By.TAG_NAME, 'span').text
@@ -769,7 +769,7 @@ for team in teams:
                     if E1 == "_":
                         E1 = ""
                 except:
-                    E1 = "none"                    
+                    E1 = ""                    
                 try:
                     Upper_F1 = columns[31].find_element(By.TAG_NAME, 'div').text
                     Lower_F1 = columns[31].find_element(By.TAG_NAME, 'span').text
@@ -777,7 +777,7 @@ for team in teams:
                     if F1 == "_":
                         F1 = ""
                 except:
-                    F1 = "none"
+                    F1 = ""
                 try:
                     Upper_G1 = columns[32].find_element(By.TAG_NAME, 'div').text
                     Lower_G1 = columns[32].find_element(By.TAG_NAME, 'span').text
@@ -785,7 +785,7 @@ for team in teams:
                     if G1 == "_":
                         G1 = ""
                 except:
-                    G1 = "none"
+                    G1 = ""
                 try:
                     Upper_H1 = columns[33].find_element(By.TAG_NAME, 'div').text
                     Lower_H1 = columns[33].find_element(By.TAG_NAME, 'span').text
@@ -793,7 +793,7 @@ for team in teams:
                     if H1 == "_":
                         H1 = ""
                 except:
-                    H1 = "none"
+                    H1 = ""
                 try:
                     Upper_J1 = columns[34].find_element(By.TAG_NAME, 'div').text
                     Lower_J1 = columns[34].find_element(By.TAG_NAME, 'span').text
@@ -801,7 +801,7 @@ for team in teams:
                     if J1 == "_":
                         J1 = ""
                 except:
-                    J1 = "none"
+                    J1 = ""
                 try:
                     Upper_K1 = columns[35].find_element(By.TAG_NAME, 'div').text
                     Lower_K1 = columns[35].find_element(By.TAG_NAME, 'span').text
@@ -809,7 +809,7 @@ for team in teams:
                     if K1 == "_":
                         K1 = ""
                 except:
-                    K1 = "none"
+                    K1 = ""
                 try:
                     Upper_L1 = columns[36].find_element(By.TAG_NAME, 'div').text
                     Lower_L1 = columns[36].find_element(By.TAG_NAME, 'span').text
@@ -817,7 +817,7 @@ for team in teams:
                     if L1 == "_":
                         L1 = ""
                 except:
-                    L1 = "none"
+                    L1 = ""
                 try:
                     Upper_M1 = columns[37].find_element(By.TAG_NAME, 'div').text
                     Lower_M1 = columns[37].find_element(By.TAG_NAME, 'span').text
@@ -825,7 +825,7 @@ for team in teams:
                     if M1 == "_":
                         M1 = ""
                 except:
-                    M1 = "none"
+                    M1 = ""
                 try:
                     Upper_N1 = columns[38].find_element(By.TAG_NAME, 'div').text
                     Lower_N1 = columns[38].find_element(By.TAG_NAME, 'span').text
@@ -833,7 +833,7 @@ for team in teams:
                     if N1 == "_":
                         N1 = "" 
                 except:
-                    N1 = "none"                   
+                    N1 = ""                   
                 A_list.append(A)
                 B_list.append(B)
                 C_list.append(C)
@@ -873,48 +873,54 @@ for team in teams:
                 L1_list.append(L1)
                 M1_list.append(M1)
                 N1_list.append(N1)
-        try:
-            A_list.remove('none')    
-            B_list.remove('none')
-            C_list.remove('none')
-            D_list.remove('none')
-            E_list.remove('none')
-            F_list.remove('none')
-            G_list.remove('none')
-            H_list.remove('none')
-            I_list.remove('none')
-            J_list.remove('none')
-            K_list.remove('none')
-            L_list.remove('none')
-            M_list.remove('none')
-            N_list.remove('none')
-            O_list.remove('none')
-            P_list.remove('none')
-            Q_list.remove('none')
-            R_list.remove('none')
-            S_list.remove('none')
-            T_list.remove('none')
-            U_list.remove('none')
-            V_list.remove('none')
-            W_list.remove('none')
-            X_list.remove('none')
-            Y_list.remove('none')
-            Z_list.remove('none')
-            A1_list.remove('none')
-            B1_list.remove('none')
-            C1_list.remove('none')
-            D1_list.remove('none')
-            E1_list.remove('none')            
-            F1_list.remove('none')
-            G1_list.remove('none')
-            H1_list.remove('none')
-            J1_list.remove('none')
-            K1_list.remove('none')
-            L1_list.remove('none')
-            M1_list.remove('none')
-            N1_list.remove('none')
+        try: 
+            A_list = A_list[1:]
+            B_list.remove('')
+            C_list.remove('')
+            D_list.remove('')
+            E_list.remove('')
+            F_list.remove('')
+            G_list.remove('')
+            H_list.remove('')
+            I_list.remove('')
+            J_list.remove('')
+            K_list.remove('')
+            L_list.remove('')
+            M_list.remove('')
+            N_list.remove('')
+            O_list.remove('')
+            P_list.remove('')
+            Q_list.remove('')
+            R_list.remove('')
+            S_list.remove('')
+            T_list.remove('')
+            U_list.remove('')
+            V_list.remove('')
+            W_list.remove('')
+            X_list.remove('')
+            Y_list.remove('')
+            Z_list.remove('')
+            A1_list.remove('')
+            B1_list.remove('')
+            C1_list.remove('')
+            D1_list.remove('')
+            E1_list.remove('')            
+            F1_list.remove('')
+            G1_list.remove('')
+            H1_list.remove('')
+            J1_list.remove('')
+            K1_list.remove('')
+            L1_list.remove('')
+            M1_list.remove('')
+            N1_list.remove('')
         except:
-            pass    
+            pass   
+        print(Player_list, A_list, B_list, C_list, D_list, E_list, F_list, G_list, H_list, I_list, J_list, K_list, L_list, M_list, N_list, O_list, P_list, Q_list, R_list, S_list, T_list, 
+              U_list, V_list, W_list, X_list, Y_list, Z_list, A1_list, B1_list, C1_list, D1_list, E1_list, F1_list, G1_list, H1_list, J1_list, K1_list, L1_list, M1_list, N1_list)
+        print(len(Player_list), len(A_list), len(B_list), len(C_list), len(D_list), len(E_list), len(F_list), len(G_list), len(H_list), len(I_list), len(J_list), len(K_list), len(L_list),
+          len(M_list), len(N_list), len(O_list), len(P_list), len(Q_list), len(R_list), len(S_list), len(T_list), len(U_list),
+           len(V_list), len(W_list), len(X_list), len(Y_list), len(Z_list), len(A1_list), len(B1_list), len(C1_list), len(D1_list), len(E1_list), len(F1_list), len(G1_list),
+           len(H1_list), len(J1_list), len(K1_list), len(L1_list), len(M1_list), len(N1_list)) 
         dict = {'1': Player_list, '2': A_list, '3': B_list, '4': C_list, '5': D_list, '6': E_list, '7': F_list, '8': G_list, '9': H_list, '10': I_list, '11': J_list, '12': K_list,
                 '13': L_list, '14': M_list, '15': N_list, '16': O_list, '17': P_list, '18': Q_list, '19': R_list, '20': S_list, '21': T_list, '22': U_list, '23': V_list, '24': W_list,
                 '25': X_list, '26': Y_list, '27': Z_list, '28': A1_list, '29': B1_list, '30': C1_list, '31': D1_list, '32': E1_list, '33': F1_list, '34': G1_list, '35': H1_list, '36': J1_list,

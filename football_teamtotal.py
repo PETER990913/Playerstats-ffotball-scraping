@@ -684,7 +684,11 @@ while l<4:
         M1_list.remove('none')
         N1_list.remove('none')
     except:
-        pass    
+        pass   
+    print(len(Player_list), len(A_list), len(B_list), len(C_list), len(D_list), len(E_list), len(F_list), len(G_list), len(H_list), len(I_list), len(J_list), len(K_list), len(L_list),
+          len(M_list), len(N_list), len(O_list), len(P_list), len(Q_list), len(R_list), len(S_list), len(T_list), len(U_list),
+           len(V_list), len(W_list), len(X_list), len(Y_list), len(Z_list), len(A1_list), len(B1_list), len(C1_list), len(D1_list), len(E1_list), len(F1_list), len(G1_list),
+           len(H1_list), len(J1_list), len(K1_list), len(L1_list), len(M1_list), len(N1_list)) 
     dict = {'1': Player_list, '2': A_list, '3': B_list, '4': C_list, '5': D_list, '6': E_list, '7': F_list, '8': G_list, '9': H_list, '10': I_list, '11': J_list, '12': K_list,
             '13': L_list, '14': M_list, '15': N_list, '16': O_list, '17': P_list, '18': Q_list, '19': R_list, '20': S_list, '21': T_list, '22': U_list, '23': V_list, '24': W_list,
             '25': X_list, '26': Y_list, '27': Z_list, '28': A1_list, '29': B1_list, '30': C1_list, '31': D1_list, '32': E1_list, '33': F1_list, '34': G1_list, '35': H1_list, '36': J1_list,
